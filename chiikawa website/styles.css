@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'typewriter'; /* Name of your font */
+    src: url('font/typewriter.ttf') format('truetype'); 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;                        
+}
+
+body {
+    font-family: 'typewriter', sans-serif; 
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #ffe6f2;
+    padding: 10px 20px;
+    position: fixed; /* Makes the header stick to the top */
+    top: 0; /* Aligns the header to the very top */
+    width: 97.5%; /* Ensures the header spans the full width of the viewport */
+    z-index: 1000; /* Places the header above other elements */
+    border-bottom: 2px solid #ffb8db;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #ffb8db;
+}
+
+/* Header menu styling */
+.header-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.header-menu a {
+    color: #ffb8db;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 2px solid #ffb8db;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-menu a:hover {
+    background-color: #ffb8db;
+    color: #fff;
+}
+
+hr {
+    margin: 0;
+    border: 0;
+    height: 2px;
+    background-color: #ffb8db;
+    width: 100vw; /* Full viewport width */
+}
+
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffb8db;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border: 2px solid #ffb8db;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffb8db;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 12.1rem;
+    color: #ffb8db;
+}
+
+section img {
+    padding: 2.5rem;
+}
+
+footer {
+    background-color: #ffe6f2;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
